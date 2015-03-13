@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = ironic_oscplugin
+omit = ironic_oscplugin/tests/*,ironic_oscplugin/openstack/*
+
+[report]
+ignore-errors = True
